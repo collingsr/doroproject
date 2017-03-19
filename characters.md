@@ -20,4 +20,13 @@ graph TB
 	b4---|Brothers|b7[Zeus Vaux]
 	b6[Thirteen]-->|Likes|b2
 
+	c1[Kai]-->|Boss|c2[Dokuga]
+	c1-->|Boss|c3[Saji]
+	c1-->|Boss|c4[Tetsujo]
+	c1-->|Boss|c5[Ushishimada]
+	c1-->|Boss|c6[Ton]
+	c1-->|Boss|c7[Natsuki]
+	c1-->|Boss|c8[Risu]
+	c1-->|Boss|c9[Yasaka]
+
 	
