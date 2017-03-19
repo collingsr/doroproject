@@ -37,3 +37,13 @@ graph TB
 	d1---|"???"|d5[Store]
 	d1-->|Creator|d6[Dustin]
 		d6---|Friends|a4
+
+	e1[Tanba]-->|Boss|e2[Kirion]
+	e1-->|Boss|e3[Fukuyama]
+	e1-->|Boss|b1
+
+	f1[Aikawa]---|Friends|c8
+
+	b1-->|Killed|a7
+
+	b1---|"???"|f1
