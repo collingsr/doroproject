@@ -13,12 +13,12 @@ graph TB
 	a1-->a10[Kikurage]
 
 	b1[Caiman]---b2[Nikaido]
-	b1---|???|b9[Ai Coleman]
 	b3["Prof Kasukabe (Haze)"]---|Taught|b4[Dr Vaux]
 	b3---|Taught|b9[Ai Coleman]
 	b3-->|Pet|b5[Johnson]
 	b4---|Brothers|b7[Zeus Vaux]
 	b6[Thirteen]-->|Likes|b2
+	b1---|"???"|b9[Ai Coleman]
 
 	c1[Kai]-->|Boss|c2[Dokuga]
 	c1-->|Boss|c3[Saji]
@@ -29,4 +29,11 @@ graph TB
 	c1-->|Boss|c8[Risu]
 	c1-->|Boss|c9[Yasaka]
 
-	
+	d1[Chidaruma]-->|Creator|d2["Asu (Kawajiri)"]
+	d1-->|Creator|d3[Gura-Gura]
+		a3<--|Dog|d3
+	d1-->|Creator|d4[Haru Kasukabe]
+		d4---|Married|b3
+	d1---|"???"|d5[Store]
+	d1-->|Creator|d6[Dustin]
+		d6---|Friends|a4
