@@ -30,8 +30,9 @@ graph TB
 	c1-->|Boss|c9[Yasaka]
 
 	d1[Chidaruma]-->|Creator|d2["Asu (Kawajiri)"]
+		d1---|Friends|a1
 	d1-->|Creator|d3[Gura-Gura]
-		a3<--|Dog|d3
+		d3-->|Dog|a3
 	d1-->|Creator|d4[Haru Kasukabe]
 		d4---|Married|b3
 	d1---|"???"|d5[Store]
@@ -45,5 +46,5 @@ graph TB
 	f1[Aikawa]---|Friends|c8
 
 	b1-->|Killed|a7
-
 	b1---|"???"|f1
+	b1---|"???"|c1
