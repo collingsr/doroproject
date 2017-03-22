@@ -33,12 +33,12 @@ graph TB
 	d1[Chidaruma]-->|Creator|d2["Asu (Kawajiri)"]
 		d1---|Friends|a1
 	d1-->|Creator|d3[Gura-Gura]
-		d3-->|Dog|a3
+		d3-->|Dog|en3
 	d1-->|Creator|d4[Haru Kasukabe]
 		d4---|Married|b3
 	d1---|"???"|d5[Store]
 	d1-->|Creator|d6[Dustin]
-		d6---|Friends|a4
+		d6---|Friends|en4
 
 	e1[Tanba]-->|Boss|e2[Kirion]
 	e1-->|Boss|e3[Fukuyama]
@@ -55,15 +55,3 @@ graph TB
         od -- Boss --> rw(Fukuyama)
         od -- Boss --> ro2(Caiman)
     end
-
-subgraph Devils
-	d1[Chidaruma]-->|Creator|d2["Asu (Kawajiri)"]
-		d1---|Friends|a1
-	d1-->|Creator|d3[Gura-Gura]
-		d3-->|Dog|a3
-	d1-->|Creator|d4[Haru Kasukabe]
-		d4---|Married|b3
-	d1---|"???"|d5[Store]
-	d1-->|Creator|d6[Dustin]
-		d6---|Friends|a4
-end 
